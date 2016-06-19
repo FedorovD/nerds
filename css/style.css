@@ -1,0 +1,323 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*reset complited*/
+@font-face {
+    font-family: Roboto Medium;
+    src: url(../fonts/roboto/Roboto-master/Roboto-Medium.ttf);
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: Roboto Medium, sans-serif;
+}
+header{
+  width: 100%;
+  height: 435px;
+  background: #EEE;
+
+  font-size: 18px;
+}
+.container{
+  width: 880px;
+  margin:0 auto;
+}
+.header-nav{
+  background: #EEE;
+  color: #1E2D33;
+}
+.index-logo{
+  margin-right: 140px;
+  margin-top: 27px;
+}
+.navigation{
+  display: inline-block;
+}
+.navigation li{
+  text-decoration: none;
+  display: inline;
+}
+.navigation li{
+  margin-left: 35px;
+}
+.navigation li a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.cart{
+  display: inline-block;
+  margin-left: 60px;
+  padding-left: 26px;
+  font-size: 14px;
+  background-image: url("../img/cart.png");
+  background-repeat: no-repeat;
+}
+.header-slider{
+  background: #EEE;
+  margin-top: 70px;
+}
+.leftside-slider{
+  display: inline-block;
+  width: 372px;
+}
+.slider-title{
+  display: inline-block;
+  margin-bottom: 24px;
+  width: 240px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.slider-descr{
+  display: inline-block;
+  font-size: 16px;
+  width: 415px;
+  color: #1E2D33;
+}
+.slider-more{
+  display: inline-block;
+  padding: 15px 70px 15px 70px;
+  margin-top: 33px;
+  border-radius: 5px;
+  background-color: #FF555A;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+.radio-slider{
+  display: inline-block;
+  margin-left: 38px;
+}
+input{
+  margin: 0px;
+}
+  .slider-image{
+float: right;
+  }
+.index-products{
+  height: 460px;
+}
+.products-websites{
+display: inline-block;
+float: left;
+}
+.products-apps{
+display: inline-block;
+margin-left: 80px;
+
+}
+.products-present{
+display: inline-block;
+float: right;
+}
+.products-present, .products-apps, .products-websites{
+  margin-top: 80px;
+  width: 240px;
+}
+.products-present h3, .products-apps h3, .products-websites h3{
+  font-size: 18px;
+  margin: 30px 0px;
+}
+.products-present p, .products-apps p, .products-websites p{
+  font-size: 15px;
+  color: #1E2D33;
+}
+.products-present a, .products-apps a, .products-websites a{
+  display: inline-block;
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 12px 38px;
+  margin-top: 30px;
+  font-weight: 100;
+}
+.products-websites a{
+background-color: #FF555A;
+}
+.products-websites a:hover{
+background-color: #F6474C;
+}
+.products-websites a:active{
+background-color: #D33235;
+}
+.products-apps a{
+  background-color: #00CB6F;
+}
+.products-apps a:hover{
+  background-color: #00A359;
+}
+.products-apps a:active{
+  background-color: #00914E;
+}
+.products-present a{
+  background-color: #FCC93B;
+}
+.products-present a:hover{
+  background-color: #E4AF0B;
+}
+.products-present a:active{
+  background-color: #CE9C00;
+}
+hr{
+  width: 880px;
+}
+.index-aboutUs{
+  color: #1E2D33;
+}
+.aboutUs-left{
+  display: inline-block;
+  width: 580px;
+}
+.aboutUs-title{
+  font-size: 36px;
+  color: black;
+}
+.aboutUs-left p{
+  margin-top: 25px;
+  font-size: 16px;
+  color: #1E2D33;
+}
+.aboutUs-pre-left{
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+.paragraph{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.paragraph span{
+  color: #FF555A;
+  font-family: Myriad Pro Regular, sans-serif;
+  font-weight: 600;
+  margin-right: 12px;
+}
+.aboutUs-right{
+  display: inline-block;
+  float: right;
+  width: 240px;
+  height: 360px;
+  background-image: url(../img/since-logo.png);
+  background-repeat: no-repeat;
+}
+.aboutUs-pre-right{
+  margin-top: 190px;
+  margin-bottom: 30px;
+}
+.our-clients{
+  height: 165px;
+}
+.glukhanko{
+  float: left;
+  margin-top: 70px;
+}
+.htmlAcademy{
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.borodinski{
+float: right;
+margin-top: 45px;
+}
+.glukhanko, .htmlAcademy, .borodinski{
+  opacity: 0.2;
+}
+.glukhanko:hover, .htmlAcademy:hover, .borodinski:hover{
+  opacity: 1;
+}
+.map{
+  height: 415px;
+  width: 100%;
+  margin-top: 85px;
+}
+.social{
+  margin-top: 80px;
+  display: inline-block;
+}
+.social-vk, .social-fb, .social-inst{
+  display: inline-block;
+  margin-right: 30px;
+  width: 60px;
+	height: 60px;
+	background: #E2E2E2;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.social-vk:hover, .social-fb:hover, .social-inst:hover{
+  	background: #FF555A;
+}
+.social-vk, .social-vk:hover{
+  background-image: url(../img/social-vk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.social-fb, .social-fb:hover{
+  background-image: url(../img/social-fb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.social-inst, .social-inst:hover{
+  background-image: url(../img/social-inst.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 0px;
+}
+.lbf{
+  display: inline-block;
+  margin-left: 60px;
+  font-size: 36px;
+}
+.discounts{
+  display: inline-block;
+ font-size: 16px;
+ margin-left: 310px;
+ margin-top: 15px;
+ color: #1E2D33;
+}
+footer{
+  padding-bottom: 80px;
+}
