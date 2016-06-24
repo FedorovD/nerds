@@ -10,17 +10,17 @@
   <div class="header-nav container">
       <img class="index-logo" src="img/index/logo.png" alt="nerds">
     <ul class="navigation">
-      <li><a href="#">СТУДИЯ</a></li>
+      <li><a href="index.html">СТУДИЯ</a></li>
       <li><a href="#">КЛИЕНТЫ</a></li>
-      <li><a href="#">МАГАЗИН</a></li>
+        <li><a  class="current" href="#">МАГАЗИН</a></li>
       <li><a href="#">КОНТАКТЫ</a></li>
     </ul>
-    <div class="cart">КОРЗИНА</div>
+    <a class="cart" href="#">КОРЗИНА</a>
   </div>
     <div class="header-title">ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН ГОТОВЫХ МАКЕТОВ.</div>
 </header>
 
-<main>
+<main class="container">
 
   <div class="filter">
   <div class="block-price">
@@ -28,13 +28,13 @@
       <div class="price-picker">
           <div class="price-picker-min"></div>
           <div class="price-picker-max"></div>
-          <form>
-               ОТ
-              <input class="from" type="text" name="min">
-               ДО
-              <input class="before" type="text" name="max">
-          </form>
       </div>
+      <form>
+          ОТ
+          <input class="from" type="text" name="min">
+          ДО
+          <input class="before" type="text" name="max">
+      </form>
   </div>
   
      
@@ -65,21 +65,23 @@
   
   
   <div class="sort">
-      <div class="title">СОРТИРОВАТЬ:</div>
-      <a class="price" href="#">ПО ЦЕНЕ</a>
-      <a class="type" href="#">ПО ТИПУ</a>
-      <a class="function" href="#">ПО ФУНКЦИОНАЛУ</a>
-      <div class="down"></div>
-      <div class="up"></div>
+      <ul class="sort-ul">
+          <li class="sort-title">СОРТИРОВАТЬ:</li>
+          <li><a class="sort-price sort-nonactive" href="#">ПО ЦЕНЕ</a></li>
+          <li><a class="sort-type sort-nonactive" href="#">ПО ТИПУ</a></li>
+          <li><a class="sort-function sort-nonactive" href="#">ПО ФУНКЦИОНАЛУ</a></li>
+      </ul>
+      <a class="sort-down" href="#"></a>
+      <a class="sort-up" href="#"></a>
   </div>
   
   <div class="design">
-      <img class="aviator" src="img/catalog/aviator.jpg">
-      <img class="sunset" src="img/catalog/sunset.jpg">
-      <img class="forte" src="img/catalog/forte.jpg">
-      <img class="modern-organic-thai" src="img/catalog/modern-organic-thai.jpg">
-      <img class="avenue" src="img/catalog/avenue.jpg">
-      <img class="dovetail" src="img/catalog/dovetail.jpg">
+      <img class="aviator" src="img/catalog/aviator.jpg" alt="aviator">
+      <img class="sunset" src="img/catalog/sunset.jpg" alt="sunset">
+      <img class="forte" src="img/catalog/forte.jpg" alt="forte">
+      <img class="modern-organic-thai" src="img/catalog/modern-organic-thai.jpg" alt="modern-organic-thai">
+      <img class="avenue" src="img/catalog/avenue.jpg" alt="avenue">
+      <img class="dovetail" src="img/catalog/dovetail.jpg" alt="dovetail">
       
       <div class="page-switcher">
           <div class="btn-1">1</div>

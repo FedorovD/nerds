@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Roboto Medium;
+    src: url(../fonts/roboto/Roboto-master/Roboto-Medium.ttf);
+
+    font-family: Roboto Bold;
+    src: url(../fonts/roboto/Roboto-master/Roboto-Bold.ttf);
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,10 +50,7 @@ table {
 }
 
 /*reset complited*/
-@font-face {
-    font-family: Roboto Medium;
-    src: url(../fonts/roboto/Roboto-master/Roboto-Medium.ttf);
-}
+
 
 body{
   width: 100%;
@@ -87,13 +91,34 @@ body{
   color: black;
   font-size: 14px;
 }
+.navigation li a:hover{
+    color: #FB565A;
+}
+.navigation li a:active{
+    color: #8F8F8F;
+}
+.current{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #FF555A;
+}
 .cart{
   display: inline-block;
+  text-decoration: none;
+    color: black;
   margin-left: 60px;
   padding-left: 26px;
   font-size: 14px;
-    background-image: url("../img/index/cart.png");
+  background-image: url("../img/index/cart.png");
   background-repeat: no-repeat;
+}
+.cart:hover{
+    color: #FB565A;
+    background-image: url("../img/index/cart-hover.png");
+}
+.cart:active{
+    color: #8F8F8F;
+    background-image: url("../img/index/cart-active.png");
+    
 }
 .header-slider{
   background: #EEE;
@@ -332,6 +357,7 @@ hr{
 .catalog-header{
   width: 100%;
   background: #EEE;
+    margin-bottom: 83px;
 }
 .header-title{
   width: 660px;
@@ -343,5 +369,137 @@ hr{
   text-align: center;
 }
 .filter{
-  width: 240px;
+    display: inline-block;
+    color: #283136;
+    font-family: Roboto Medium, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    
+    
+    width: 240px;
+    margin-right: 80px;
 }
+.block-name{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 22px;
+}
+.price-picker{
+    width: 240px;
+    height: 80px;
+    background: #f1f1f1;
+    margin-bottom: 14px;
+    
+}
+.price-picker-min{}
+.price-picker-max{}
+
+.from, .before {
+    height: 38px;
+    width: 80px;
+    background: #f1f1f1;
+    margin-left: 6px;
+    border-radius: 3px;
+    
+    outline: none;
+    border: none;
+    
+    
+    color: #283136;
+    font-family: Roboto Mediume, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;    
+    
+}
+.from{
+    margin-right: 12px;
+}
+
+.block-mesh{
+    margin-top: 53px;
+}
+
+.filter-submit{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    width: 155px;
+    height: 38px;
+    background-color: #f1f1f1;
+    
+    font-family: Roboto Bold, sans-serif;
+    font-size: 12px;
+
+    color: black;
+}
+
+
+.sort{
+    display: inline-block;
+    float: right;
+
+    padding-top: 3px;
+    margin-bottom: 54px;
+    
+    font-family: Roboto Mediume, sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    
+}
+.sort-ul{
+    display: inline-block;
+}
+.sort-ul li{
+    display: inline;
+}
+.sort-title{
+    margin-right: 41px;
+}
+.sort-price, .sort-type, .sort-function{
+    text-decoration: none; 
+    margin-right: 45px;
+}
+
+.sort-down{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 11px solid #00CA74;
+    
+}
+.sort-up{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 11px solid #C1C1C1;
+}
+
+.design{
+    display: inline-block;
+    width: 560px;
+    
+}
+.sunset, .modern-organic-thai, .dovetail{
+   
+    float: right;
+}
+.sunset, .modern-organic-thai, .dovetail, .aviator, .forte, .avenue{
+    margin-bottom: 110px;
+    
+    border-top: 30px solid  white;
+    border-radius: 3px;
+    
+    border-image: url(../img/catalog/browser.jpg)100 0;
+}
+.sunset:hover, .modern-organic-thai:hover, .dovetail:hover, .aviator:hover, .forte:hover, .avenue:hover{
+    border-image: url(../img/catalog/browser-active.jpg)100 0;
+}
+
